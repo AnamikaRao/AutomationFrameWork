@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Test Suite" parallel="tests">
+
+  <!-- Run only Smoke group -->
+  <test name="Smoke Suite">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+
+    <classes>
+      <class name="automation.test.SubmitOrderFlow"/>
+      <class name="automation.test.LoginPageErrorValidation"/>
+    </classes>
+  </test>
+
+</suite>

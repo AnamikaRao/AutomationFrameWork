@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel ="tests" name="Automation Test Suite">
+
+<listeners>
+    <listener class-name="automation.testcomponents.Listners" />
+</listeners>
+  <!-- Test 1: Submit Order Flow -->
+  <test name="Submit Order Test">
+    <classes>
+      <class name="automation.test.SubmitOrderFlow"/>
+    </classes>
+  </test>
+
+  <!-- Test 2: Login Error Validation -->
+  <test name="Login Error Test">
+    <classes>
+      <class name="automation.test.LoginPageErrorValidation"/>
+    </classes>
+  </test>
+
+</suite>
