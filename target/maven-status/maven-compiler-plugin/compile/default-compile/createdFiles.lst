@@ -1,6 +1,0 @@
-automation\pageObjects\LandingPageSignupFlow.class
-automation\pageObjects\LandingPageSignInFlow.class
-automation\abstactComponent\AbstractComponent.class
-automation\pageObjects\CartPage.class
-automation\pageObjects\PaymentPage.class
-automation\resources\ExtentReport.class
